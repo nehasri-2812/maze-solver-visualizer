@@ -1,16 +1,119 @@
-# React + Vite
+# Maze Solver Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive pathfinding visualizer built using React that demonstrates how BFS and DFS algorithms explore and solve mazes through animated traversal.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Interactive grid system
+* Dynamic grid size (Rows × Columns)
+* Add and remove walls
+* Set Start and End nodes
+* BFS Visualization
+* DFS Visualization
+* Animated path traversal
+* Adjustable animation speed
+* Responsive and modern UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript
+* CSS
+* Vite
+
+---
+
+## Algorithms Used
+
+### Breadth First Search (BFS)
+
+* Explores nodes level-by-level
+* Guarantees shortest path
+
+### Depth First Search (DFS)
+
+* Explores deeply before backtracking
+* Does not guarantee shortest path
+
+---
+
+## Project Setup
+
+### Create Project
+
+```bash id="v9p8dy"
+npm create vite@latest
+```
+
+Select:
+
+* React
+* JavaScript
+
+---
+
+### Install Dependencies
+
+```bash id="t34yvu"
+npm install
+```
+
+---
+
+### Run Development Server
+
+```bash id="oq2e3t"
+npm run dev
+```
+
+---
+
+## Project Structure
+
+```text id="0lw1v0"
+src/
+│
+├── components/
+│   ├── Grid.jsx
+│   └── Cell.jsx
+│
+├── algorithms/
+│   ├── bfs.js
+│   └── dfs.js
+│
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+```
+
+---
+
+## Future Improvements
+
+* A* Algorithm
+* Dijkstra Visualization
+* Maze Generation
+* Drag-to-create walls
+* Mobile Optimization
+
+---
+
+## Screenshots
+
+<img width="1828" height="902" alt="image" src="https://github.com/user-attachments/assets/2ccba838-a6c0-46ff-b66c-08ec3b03466f" />
+
+
+
+
+---
+
+
+
+## Author
+
+Neha
