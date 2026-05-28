@@ -111,7 +111,9 @@ src/
 
 
 ---
+Live Demo
 
+[(Add Vercel deployment link here)](https://maze-solver-visualizer-three.vercel.app/)
 
 
 ## Author
